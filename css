@@ -1,0 +1,53 @@
+body{
+    font-family: Georgia;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+header{
+    width: 100%;
+}
+header, footer{
+background-color: #4BA3C7;
+color: white;
+height:  80 px;
+font-size:  120%;
+}
+
+
+section, aside{
+    background-color: #EFEFEF;
+    height: 400 px;
+    width: 25%;
+}
+
+main{
+    background-color: #90CAF9;
+    height: 400 px;
+    width: 50%;
+}
+
+table{
+    margin-left: 10 px;
+    width: 90%;
+    border: 1 px solid  #90CAF9;
+
+}
+
+td{
+
+   padding:  5 px;
+   border: 1 px solid  #90CAF9;
+}
+
+tr:hover{
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+
+footer{
+    width: 100%;
+}
